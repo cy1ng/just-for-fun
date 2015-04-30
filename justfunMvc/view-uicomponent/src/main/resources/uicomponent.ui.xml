@@ -1,0 +1,11 @@
+<ui-components>
+	  <!--dependencies-->
+    <ui-component name="uicomponent" dependencies="">
+    	 <!--css-resource-->
+       <css-resource></css-resource>
+       <!--js-resource-->
+       <js-resource></js-resource>
+       <css-codelet><![CDATA[]]></css-codelet>
+		   <js-codelet><![CDATA[]]></js-codelet>
+    </ui-component>
+</ui-components>

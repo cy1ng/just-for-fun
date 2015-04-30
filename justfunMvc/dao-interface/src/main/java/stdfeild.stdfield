@@ -1,0 +1,6 @@
+<standard-fields>
+  <standard-field id="d8a6d8a1ff80445d9a28940f57474afb" name="int" title="INT" business-type-id="62e62d93d9484de58a678a0ba4049e4d" not-null="false">
+    <description></description>
+  </standard-field>
+  <standard-field id="cf851f63217241ec8980e43ff70db3d5" name="string" title="STRING" business-type-id="712d62fde3b74fa78e54fd60c8a67fb4" not-null="false"/>
+</standard-fields>

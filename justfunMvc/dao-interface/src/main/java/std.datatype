@@ -1,0 +1,11 @@
+<standard-types>
+  <standard-type id="b60fddcf9688463b9b55fcb21aabd5c3" name="int" title="INT" data-type="4">
+    <description></description>
+    <placeholder-list/>
+    <dialect-type-list/>
+  </standard-type>
+  <standard-type id="83a768b46e634e3db8f8ac478af65eac" name="string" title="STRING" data-type="12">
+    <placeholder-list/>
+    <dialect-type-list/>
+  </standard-type>
+</standard-types>

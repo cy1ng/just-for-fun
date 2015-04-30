@@ -1,0 +1,9 @@
+<business-types>
+  <business-type id="62e62d93d9484de58a678a0ba4049e4d" name="int" title="INT" standard-type-id="b60fddcf9688463b9b55fcb21aabd5c3">
+    <description></description>
+    <placeholder-value-list/>
+  </business-type>
+  <business-type id="712d62fde3b74fa78e54fd60c8a67fb4" name="string" title="STRING" standard-type-id="83a768b46e634e3db8f8ac478af65eac">
+    <placeholder-value-list/>
+  </business-type>
+</business-types>

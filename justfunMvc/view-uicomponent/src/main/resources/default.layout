@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+    <title>Just For Fun</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="${TINY_CONTEXT_PATH}/css/main.css">
+    <link rel="stylesheet" href="${TINY_CONTEXT_PATH}/css/bootstrap.css">
+</head>
+<body>
+
+<header id="header" class="header header--fixed hide-from-print animated slideDown" role="banner">
+    <div class="container">
+    
+        <nav id="nav" class="nav-wrapper" role="navigation">
+            <ul class="nav nav--main">
+                <li class="nav__item ">
+                    <a class="header__link subdued" href="https://www.github.com/WickyNilliams/headroom.js">
+                        <span aria-hidden="true" class="icon icon--github"></span>
+                        <span class="complimentary push--left">
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">笑话<span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+                        </span>
+                    </a>
+                </li>
+                <li class="nav__item ">
+                    <a class="header__link subdued" href="http://www.twitter.com/WickyNilliams">
+                        <span aria-hidden="true" class="icon icon--twitter"></span>
+                        <span class="complimentary push--left">小说</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <a href="http://wicky.nillia.ms/headroom.js/" class="brand header__link">
+            <b class="brand__forename">Just fun</b>
+        </a>
+    </div>
+</header>
+
+<script src="${TINY_CONTEXT_PATH}/js/jquery-1.11.2.min.js"></script>
+<script src="${TINY_CONTEXT_PATH}/js/bootstrap.js"></script>
+${pageContent}
+
+  <a class="btt btn btn--plain hide-from-print slide slide--reset" href="#" id="btt">Top <i class="icon icon--up"></i></a>
+
+
+
+<!-- <script src="Headroom.js_files/main.js"></script> -->
+<script src="${TINY_CONTEXT_PATH}/js/headroom-0.7.0.js"></script>
+
+<script>
+(function() {
+    var header = new Headroom(document.querySelector("#header"), {
+        tolerance: 5,
+        offset : 205,
+        classes: {
+          initial: "animated",
+          pinned: "slideDown",
+          unpinned: "slideUp"
+        }
+    });
+    header.init();
+
+    var bttHeadroom = new Headroom(document.getElementById("btt"), {
+        tolerance : 0,
+        offset : 500,
+        classes : {
+            initial : "slide",
+            pinned : "slide--reset",
+            unpinned : "slide--down"
+        }
+    });
+    bttHeadroom.init();
+}());
+</script>
+<!-- <script src="Headroom.js_files/jquery.js"></script>
+<script src="Headroom.js_files/projects.js"></script><script src="Headroom.js_files/h.js" type="text/javascript"></script><script src="Headroom.js_files/h_002.js" type="text/javascript"></script> -->
+
+
+<div id="site-navbar" style="position: absolute; top: -4px; left: -3px; border: 0; z-index: 2000;padding:0;margin:0;"><a href="http://www.bootcss.com/" title="just fun" style="background:none;"><img src="${TINY_CONTEXT_PATH}/img/return-back.png" style="padding:0;margin:0;border:0; -webkit-box-shadow: none;-moz-box-shadow: none;box-shadow: none;"></a>
+</div>
+</body>
+</html>
