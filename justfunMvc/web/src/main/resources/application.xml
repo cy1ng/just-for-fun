@@ -3,7 +3,7 @@
 <application>
     <application-properties>
         <property name="BASE_PACKAGE" value="org.tinygroup"/>
-        <property name="DEBUG_MODE" value="false"/>
+        <property name="DEBUG_MODE" value="true"/>
         <property name="TINY_THEME" value="default"/>
         <property name="wholeWidth" value="200pt"/>
         <property name="labelWidth" value="80pt"/>
@@ -38,7 +38,7 @@
     <file-resolver-configuration
             resolve-classpath="true">
         <class-paths>
-         <class-path path="I:\TinyProject\justfunMvc\view-uicomponent\src\main\resources" /> 
+         <class-path path="I:\TinyProject\just-for-fun\justfunMvc\view-uicomponent\src\main\resources" /> 
         </class-paths>
         <include-patterns>
             <include-pattern pattern="org\.tinygroup\.(.)*\.jar"/>

@@ -1,10 +1,10 @@
 <ui-components>
 	  <!--dependencies-->
-    <ui-component name="uicomponent" dependencies="">
+    <ui-component name="jquery_pagination" dependencies="jquery">
     	 <!--css-resource-->
-       <css-resource></css-resource>
+       <css-resource>/css/jquery.pagination.css</css-resource>
        <!--js-resource-->
-       <js-resource></js-resource>
+       <js-resource>/js/jquery.pagination-1.2.1.js</js-resource>
        <css-codelet><![CDATA[]]></css-codelet>
 		   <js-codelet><![CDATA[]]></js-codelet>
     </ui-component>
